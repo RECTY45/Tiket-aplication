@@ -416,8 +416,7 @@ public class PenjualanTiket extends javax.swing.JFrame {
     }//GEN-LAST:event_btnDeleteActionPerformed
 
     private void tblTiketMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_tblTiketMouseClicked
-        // TODO add your handling code here:
-         inputId.setText(model.getValueAt(tblTiket.getSelectedRow(), 0).toString());
+      inputId.setText(model.getValueAt(tblTiket.getSelectedRow(), 0).toString());
        inputNama.setText(model.getValueAt(tblTiket.getSelectedRow(), 1).toString());
          inputTujuan.setSelectedItem(model.getValueAt(tblTiket.getSelectedRow(), 2).toString());
          inputJumlahTiket.setText(model.getValueAt(tblTiket.getSelectedRow(), 3).toString());

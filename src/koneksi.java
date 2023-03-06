@@ -2,7 +2,7 @@ import java.sql.*;
 import javax.swing.JOptionPane;
 
 public class koneksi {
- private String url="jdbc:mysql://localhost/uh_202062";
+ private String url="jdbc:mysql://localhost/uh_202048";
  private String username_laragon = "root";
  private String password_laragon = "";
  private Connection con;
