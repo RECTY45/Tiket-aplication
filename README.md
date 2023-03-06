@@ -1,2 +1,1 @@
 # Tiket-aplication
-# Penjualan-Barang
